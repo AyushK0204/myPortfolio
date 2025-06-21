@@ -19,12 +19,12 @@ const Footer = () => {
       <div className=" max-w-[1200px] mx-auto px-4">
         <div className="flex items-center justify-between flex-col md:flex-row">
           <div>
-            <h2 className="md:text-6xl text-4xl max-md:text-center font-bold mb-10 text-white/50">
+            <h2 className="md:text-6xl text-2xl max-md:text-center font-bold mb-10 text-white/50">
               Get in <motion.span style={{ color }}>touch</motion.span>
             </h2>
             <a
               href="mailto:ayu.k.210402@gmail.com"
-              className="text-4xl font-semibold text-white underline decoration-gray-400 decoration-2 underline-offset-4 hover:decoration-gray-200 transition duration-300"
+              className="text-2xl md:text-4xl font-semibold text-white underline decoration-gray-400 decoration-2 underline-offset-4 hover:decoration-gray-200 transition duration-300"
             >
               ayu.k.amaing@gmail.com
             </a>
@@ -44,10 +44,10 @@ const Footer = () => {
         </div>
 
         <div className="relative z-10 text-center mt-8 py-12">
-          <h1 className="hidden md:block text-[10rem] md:text-[8rem] lg:text-[10rem] font-bold text-white opacity-10">
+          <h1 className="hidden md:block text-[10rem] md:text-[7rem] lg:text-[10rem] font-bold text-white opacity-10">
             AYUSHKUMAR
           </h1>
-          <h1 className="md:hidden relative text-9xl md:text-[12rem] lg:text-[15rem] font-bold text-white opacity-10">
+          <h1 className="md:hidden relative text-8xl md:text-[12rem] lg:text-[15rem] font-bold text-white opacity-10">
             AYUSH
             <br />
             KUMAR
