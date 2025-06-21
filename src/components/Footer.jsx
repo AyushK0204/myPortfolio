@@ -29,18 +29,6 @@ const Footer = () => {
               ayu.k.210402@gmail.com
             </a>
           </div>
-
-          <div className=" text-white/50 mt-12">
-            <div className=" mb-8">
-              <p className="max-md:text-center text-lg mb-1">Phone</p>
-              <a
-                href="+919369570843"
-                className=" text-2xl font-semibold underline decoration-2 decoration-gray-400 underline-offset-4 hover:decoration-gray-200 transition duration-300"
-              >
-                +91 9369570843
-              </a>
-            </div>
-          </div>
         </div>
 
         <div className="relative z-10 text-center mt-8 py-12">
