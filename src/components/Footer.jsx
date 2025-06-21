@@ -26,7 +26,7 @@ const Footer = () => {
               href="mailto:ayu.k.210402@gmail.com"
               className="text-2xl md:text-4xl font-semibold text-white underline decoration-gray-400 decoration-2 underline-offset-4 hover:decoration-gray-200 transition duration-300"
             >
-              ayu.k.amaing@gmail.com
+              ayu.k.210402@gmail.com
             </a>
           </div>
 
