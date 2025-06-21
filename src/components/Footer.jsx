@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <footer className=" py-8" id="contact">
       <div className=" max-w-[1200px] mx-auto px-4">
-        <div className="text-center flex items-center justify-between flex-col md:flex-row">
+        <div className="text-center flex items-center justify-between flex-col">
           <div>
             <h2 className="md:text-6xl text-2xl max-md:text-center font-bold mb-10 text-white/50">
               Get in <motion.span style={{ color }}>touch</motion.span>
