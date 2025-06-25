@@ -26,7 +26,7 @@ const projects = [
     title: "Piccolo",
     desc: "Piccolo is an AI-powered image generation platform that transforms your text prompts into stunning visuals. This web-based tool offers a seamless experience for:\n-Generating high-quality images from simple text prompts\n -Exploring creative possibilities with AI-generated art\n -Buying additional credits to unlock more generations (free credits are limited)",
     devstack: "MongoDB, Express.js, React, Node.js, Vite, Razorpay, Motion",
-    link: "https://ai-image-generator-server-five.vercel.app/",
+    link: "https://ai-image-generator-client-chi.vercel.app/",
     git: "https://github.com/AyushK0204/ai-image-generator",
     src: proj2,
   },

@@ -37,7 +37,7 @@ const Navbar = () => {
       </div>
       <div
         onClick={toggleNav}
-        className=" md:hidden absolute top-5 right-14 border rounded z-50 text-white/70 p-2"
+        className=" md:hidden absolute top-5 right-5 border rounded z-50 text-white/70 p-2"
       >
         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
       </div>
@@ -46,10 +46,14 @@ const Navbar = () => {
           nav ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <ul className=" flex flex-col items-center justify-center space-y-8 h-full">
+        <ul className=" flex flex-col items-center justify-center space-y-10 h-full">
           {navLinks.map((link, index) => (
             <li key={index}>
-              <a href={link.path} onClick={closeNav} className="text-5xl">
+              <a
+                href={link.path}
+                onClick={closeNav}
+                className="text-5xl font-semibold bg-gradient-to-tr from-blue-300 via-yellow-100 to-blue-300 bg-clip-text text-transparent"
+              >
                 {link.title}
               </a>
             </li>

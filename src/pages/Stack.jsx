@@ -136,7 +136,10 @@ const Stack = () => {
       <h2 className=" text-7xl text-gray-100 font-bold mb-20">
         My <motion.span style={{ color }}>Stack</motion.span>
       </h2>
-      <div className="flex flex-wrap justify-center gap-8" ref={ref}>
+      <div
+        className="flex flex-wrap justify-center gap-8 max-[430px]:gap-2"
+        ref={ref}
+      >
         {stackItems.map((item, index) => (
           <motion.div
             key={item.id}
@@ -156,10 +159,10 @@ const Stack = () => {
                 },
               },
             }}
-            className=" bg-white/10 flex flex-col items-center justify-center w-[200px] h-[200px] rounded-xl p-4 shadow-lg hover:shadow-2xl transition-shadow duration-200"
+            className=" bg-white/10 flex flex-col items-center justify-center w-[200px] h-[200px] rounded-xl p-4 shadow-white/20 shadow-lg hover:shadow-2xl hover:shadow-white/50 text-white/30 hover:text-white hover:bg-black transition-shadow duration-200 max-[430px]:scale-75 max-[430px]:text-white/60 max-[430px]:gap-3"
           >
-            <div className={`mb-4 ${item.color}`}>{item.icon}</div>
-            <p className=" text-white/20 text-xl">{item.name}</p>
+            <div className={`mb-4 ${item.color} `}>{item.icon}</div>
+            <p className="  text-xl">{item.name}</p>
           </motion.div>
         ))}
       </div>
