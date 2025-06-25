@@ -50,7 +50,7 @@ const About = () => {
           </p>
 
           <div className=" rounded-lg p-4 mb-4 border border-white/20">
-            <code className=" text-blue-400/50">
+            <code className=" text-blue-400/75">
               const skills = [ <br />
               &nbsp;&nbsp;'Javascript',
               <br />
