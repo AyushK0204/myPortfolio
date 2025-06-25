@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <footer className=" py-8" id="contact">
       <div className=" max-w-[1200px] mx-auto px-4">
-        <div className="flex items-center justify-between flex-col md:flex-row">
+        <div className="text-center flex items-center justify-between flex-col">
           <div>
             <h2 className="md:text-6xl text-2xl max-md:text-center font-bold mb-10 text-white/50">
               Get in <motion.span style={{ color }}>touch</motion.span>
@@ -28,18 +28,6 @@ const Footer = () => {
             >
               ayu.k.210402@gmail.com
             </a>
-          </div>
-
-          <div className=" text-white/50 mt-12">
-            <div className=" mb-8">
-              <p className="max-md:text-center text-lg mb-1">Phone</p>
-              <a
-                href="+919369570843"
-                className=" text-2xl font-semibold underline decoration-2 decoration-gray-400 underline-offset-4 hover:decoration-gray-200 transition duration-300"
-              >
-                +91 9369570843
-              </a>
-            </div>
           </div>
         </div>
 
