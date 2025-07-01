@@ -84,7 +84,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.96 }}
                 className="relative inline-block px-8 py-3 font-semibold text-white uppercase tracking-wider rounded-full bg-transparent hover:bg-black/40 overflow-hidden transition duration-300 group "
               >
-                <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent transform -translate-x-full group-hover:translate-x-full transition-transform duration-800 ease-in-out pointer-events-none " />
+                <span className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/60 to-transparent transform -translate-x-full group-hover:translate-x-full transition-transform duration-800 ease-in-out pointer-events-none " />
 
                 <span className="relative z-10">My Resume</span>
               </motion.a>
